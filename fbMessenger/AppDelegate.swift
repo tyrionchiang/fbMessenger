@@ -23,6 +23,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let layout = UICollectionViewFlowLayout()
         let friendsController = FriendsController(collectionViewLayout: layout)
         window?.rootViewController = UINavigationController(rootViewController: friendsController)
+        
+        window?.rootViewController = CustomTabBarController()
         // Override point for customization after application launch.
         return true
     }
