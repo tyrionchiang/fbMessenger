@@ -8,11 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		8676A7981D4DEDC4007F7283 /* ChatLogController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8676A7971D4DEDC4007F7283 /* ChatLogController.swift */; };
+		868538821D51DE840025BCBC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 868538811D51DE840025BCBC /* Assets.xcassets */; };
 		868C645D1D4F0E98000E459B /* CustomTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868C645C1D4F0E98000E459B /* CustomTabBarController.swift */; };
 		86B478DA1D3BAF450078EA4F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B478D91D3BAF450078EA4F /* AppDelegate.swift */; };
 		86B478DC1D3BAF450078EA4F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B478DB1D3BAF450078EA4F /* ViewController.swift */; };
 		86B478E21D3BAF450078EA4F /* fbMessenger.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 86B478E01D3BAF450078EA4F /* fbMessenger.xcdatamodeld */; };
-		86B478E41D3BAF450078EA4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86B478E31D3BAF450078EA4F /* Assets.xcassets */; };
 		86F3C29D1D3E1F320023D050 /* FriendsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F3C29C1D3E1F320023D050 /* FriendsController.swift */; };
 		86F3C2A21D3E23DA0023D050 /* Friend+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F3C29E1D3E23DA0023D050 /* Friend+CoreDataProperties.swift */; };
 		86F3C2A31D3E23DA0023D050 /* Friend.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F3C29F1D3E23DA0023D050 /* Friend.swift */; };
@@ -22,12 +22,12 @@
 
 /* Begin PBXFileReference section */
 		8676A7971D4DEDC4007F7283 /* ChatLogController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatLogController.swift; sourceTree = "<group>"; };
+		868538811D51DE840025BCBC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		868C645C1D4F0E98000E459B /* CustomTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CustomTabBarController.swift; path = ../CustomTabBarController.swift; sourceTree = "<group>"; };
 		86B478D61D3BAF450078EA4F /* fbMessenger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fbMessenger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		86B478D91D3BAF450078EA4F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		86B478DB1D3BAF450078EA4F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		86B478E11D3BAF450078EA4F /* fbMessenger.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = fbMessenger.xcdatamodel; sourceTree = "<group>"; };
-		86B478E31D3BAF450078EA4F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		86B478E81D3BAF450078EA4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		86F3C29C1D3E1F320023D050 /* FriendsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendsController.swift; sourceTree = "<group>"; };
 		86F3C29E1D3E23DA0023D050 /* Friend+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Friend+CoreDataProperties.swift"; sourceTree = "<group>"; };
@@ -72,8 +72,8 @@
 				86F3C29C1D3E1F320023D050 /* FriendsController.swift */,
 				8676A7971D4DEDC4007F7283 /* ChatLogController.swift */,
 				868C645C1D4F0E98000E459B /* CustomTabBarController.swift */,
+				868538811D51DE840025BCBC /* Assets.xcassets */,
 				86F3C2A71D3E26EA0023D050 /* coreData */,
-				86B478E31D3BAF450078EA4F /* Assets.xcassets */,
 			);
 			path = fbMessenger;
 			sourceTree = "<group>";
@@ -156,7 +156,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				86B478E41D3BAF450078EA4F /* Assets.xcassets in Resources */,
+				868538821D51DE840025BCBC /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
